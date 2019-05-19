@@ -1,0 +1,24 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "hello world",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://simba-fs@github.com/simba-fs/2019summer-hello.git"
+  },
+  "author": "Simba-Fs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simba-fs/2019summer-hello/issues"
+  },
+  "homepage": "https://github.com/simba-fs/2019summer-hello#readme",
+  "dependencies": {
+    "nodemon": "^1.19.0",
+    "simple": "github:simba-fs/simple"
+  }
+}
