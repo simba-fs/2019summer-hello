@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/simba-fs/2019summer-hello#readme",
   "dependencies": {
+    "dotenv": "^8.0.0",
     "nodemon": "^1.19.0",
     "simple": "github:simba-fs/simple"
   }

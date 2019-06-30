@@ -1,6 +1,7 @@
 var simple = require('simple');
+require('dotenv').config();
 
-var { token } = require('./ignore/token.js');
+var token = process.env.TOKEN;
 
 simple.login(token);
 
