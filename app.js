@@ -1,10 +1,10 @@
-var simple = require('simple');
+var simply = require('simply.js');
 require('dotenv').config();
 
 var token = process.env.TOKEN;
 
-simple.login(token);
+simply.login(token);
 
-simple.set('promptChar', '');
+simply.set('prefix', '');
 
-simple.echo('hi', 'Welcome to my server!');
+simply.echo('hi', 'Welcome to my server!');
